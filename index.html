@@ -61,12 +61,21 @@
             <p>Fully modeled Porsche 911 in Fusion 360.</p>
         
             <model-viewer 
-                src="Porsche_v181.glb" 
+                src="models/Porsche v181.glb" 
+                ios-src="models/Porsche v181.usdc" 
                 alt="3D CAD Model of Porsche" 
                 auto-rotate 
                 camera-controls 
-                environment-image="neutral">
+                ar 
+                skybox-image="models/workshop.hdr" 
+                environment-image="models/workshop.hdr" 
+                shadow-intensity="1.5" 
+                exposure="1.0">
             </model-viewer>
+            
+            <p style="text-align: center; margin-top: 20px;">
+                The Porsche 911 was designed entirely in Fusion 360 using advanced surface modeling techniques. I focused on replicating accurate proportions and details based on real-world references, followed by high-quality rendering to showcase its aesthetics. I followed a 4 part tutorial to model this car and learned about mesh style for creating 3D objects. https://www.youtube.com/watch?v=VyBrucQQg1s. 
+            </p>
         </section>
         
         <section id="engine" class="project">
@@ -74,8 +83,8 @@
             <p>This engine was entirely modeled by me, showcasing my ability to design complex mechanical parts.</p>
             
             <model-viewer 
-                src="models/Engine_v27.glb" 
-                ios-src="models/Engine_v27.usdc" 
+                src="models/Engine v27.glb" 
+                ios-src="models/Engine v27.usdc" 
                 alt="3D CAD Model of Engine" 
                 auto-rotate 
                 camera-controls 
@@ -96,8 +105,8 @@
             <p>This spring was modeled focusing on structural accuracy and spring dynamics.</p>
             
             <model-viewer 
-                src="models/Spring_v11.glb" 
-                ios-src="models/Spring_v11.usdc" 
+                src="models/Spring v11.glb" 
+                ios-src="models/Spring v11.usdc" 
                 alt="3D CAD Model of Spring" 
                 auto-rotate 
                 camera-controls 
